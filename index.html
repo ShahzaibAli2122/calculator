@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Age caluclator</h1>
+    <main class="conatiner">
+      <div class="input">
+        <!-- brithday -->
+        <label for="brithday"> Enter Your brithday</label>
+        <input type="date" id="brithday" />
+      </div>
+      <ul>
+        <!-- display output -->
+        <li> Years<span id="years"> Years</span></li>
+        <li> Months<span id="months"> Months</span></li>
+
+        <li>Days <span id="days"> Days</span></li>
+        <li>Hours<span id="hors"> Hours</span></li>
+
+   
+        <li>minutes<span id="minutes"> minutes</span></li>
+        <li>Seconds<span id="seconds"> seconds</span></li>
+      </ul>
+
+      <div class="btns">
+        <button onclick="calculator()" > calculator </button>
+        <button onclick="reset()" >reset</button>
+      </div>
+      
+    </main>
+<button onclick="printPattern()">Click me </button>
+    <script src="script.js"></script>
+  </body>
+</html>
